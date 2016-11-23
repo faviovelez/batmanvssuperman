@@ -1,10 +1,12 @@
-<a href="/pages/batman.html">
-  <img src="assets/batman.jpg" alt="Batman" class="superhero">
-</a>
 
-<a href="/pages/superman.html">
-  <img src="assets/superman.jpg" alt="Superman" class="superhero">
-</a>
+  <a href="<%=pages_batman_path%>">
+    <img src="assets/batman.jpg" alt="Batman" class="superhero">
+  </a>
+
+  <a href="<%=pages_superman_path%>">
+    <img src="assets/superman.jpg" alt="Superman" class="superhero">
+  </a>
+
 
 <div class="superman-form">
   <%= form_for(@superhero, url: pages_batman_vs_superman_post_path, method: 'post') do |f| %>

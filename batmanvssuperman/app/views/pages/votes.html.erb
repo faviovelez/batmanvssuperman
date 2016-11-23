@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <%= javascript_include_tag 'batman', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'votes', 'data-turbolinks-track' => true %>
 </head>
-  <title>Batman</title>
+  <title>Votos de Batman vs Superman</title>
 <body class="<%= params[:action] %>">
+  <%= flash[:alert] %>
   <div class="center">
-    <p>I am Batman</p>
+    <p>La batalla continúa...</p>
   </div>
+
+  <p class="center"> Batman tiene <%= @batman_votes%> votos. Superman tiene <%= @superman_votes%> votos</p>
+
 </body>
 </html>

@@ -1,6 +1,23 @@
 body {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0 0;
+  padding: 0 0;
+  border: 0 0;
+  background: black;
+  color: white;
+}
+
+p {
+  font-size: 38px;
+  color: white;
+  align-items: center;
+}
+
+.center {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .superhero,
@@ -10,5 +27,6 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   display: inline-block;
-  width: 49.5%;
+  width: 49.8%;
+  text-align: center;
 }

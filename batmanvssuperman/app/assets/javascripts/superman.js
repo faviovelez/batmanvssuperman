@@ -1,6 +1,6 @@
 $(function() {
   $('body.superman').ready(function() {
     event.preventDefault();
-    $.backstretch("/assets/superman.jpg");
+    $.backstretch("/assets/superman-2.jpg");
   });
 });
