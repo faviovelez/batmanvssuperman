@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'pages/batman_vs_superman'
 
+  post 'pages/batman_vs_superman_post'
+
   get 'pages/batman'
 
   get 'pages/superman'
