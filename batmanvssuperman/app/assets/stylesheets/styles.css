@@ -1,0 +1,12 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.superhero {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: inline-block;
+  width: 49.5%;
+}
