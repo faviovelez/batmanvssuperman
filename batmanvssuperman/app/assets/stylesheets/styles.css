@@ -1,0 +1,14 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.superhero,
+.superman-form,
+.batman-form {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: inline-block;
+  width: 49.5%;
+}
