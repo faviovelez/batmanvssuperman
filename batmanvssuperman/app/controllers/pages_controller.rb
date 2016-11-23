@@ -7,6 +7,8 @@ class PagesController < ApplicationController
 
   def batman_vs_superman
     @superhero = Superhero.new
+    @votes_batman = 0
+    @votes_superman = 0
   end
 
   def batman_vs_superman_post
