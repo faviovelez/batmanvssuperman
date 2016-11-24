@@ -33,5 +33,4 @@ class PagesController < ApplicationController
     votes_hash[true].count
   end
 
-
 end
